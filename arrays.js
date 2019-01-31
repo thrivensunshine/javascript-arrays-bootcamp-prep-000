@@ -24,9 +24,9 @@ function accessElementInArray(arr, ind){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(arr){
-  return arr.unshift()
+  return arr.shift()
 }
 
 function removeElementFromBeginningOfArray(arr){
-  let newArr = arr.slice(0,1)
+  let newArr = arr.slice(1)
 }
